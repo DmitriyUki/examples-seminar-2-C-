@@ -10,7 +10,7 @@ int usernumber = Convert.ToInt32(useranswer);
 
 if (usernumber < 8 && usernumber > 0)
 {
-
+  
 }
 if (usernumber == 1)
 {
@@ -40,7 +40,7 @@ else if (usernumber == 7)
 {
   Console.WriteLine ("Воскресенье - выходной");
 }
-else 
+else
 {
-  Console.WriteLine ("Нет такого дня недели");
+Console.WriteLine ("Нет такого дня недели");
 }
